@@ -4,8 +4,6 @@ import sys
 
 import nuke
 
-import pixoConfig
-import pixoFileTools as pft
 import yaml
 from .base import BaseMenu
 
