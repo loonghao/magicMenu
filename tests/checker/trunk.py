@@ -21,7 +21,7 @@ def sendComment(message_):
 
 # ws = '/Users/haolong/PycharmProjects/magicMenu'
 ws = os.environ['WORKSPACE']
-f = file(os.path.join(ws, "o、utput.txt"))
+f = file(os.path.join(ws, "output.txt"))
 found = False
 
 
