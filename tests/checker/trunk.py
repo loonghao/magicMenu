@@ -6,7 +6,6 @@ import re
 
 def sendComment(message_):
     pr_url = os.environ['ghprbPullLink']
-    # pr_url = "https://github.com/tmikota/、/pull/56"
     pr_url = pr_url.replace("github.com/", "api.github.com/repos/")
     pr_url = pr_url.replace("pull", "pulls")
     repo = pr_url.split("/")
