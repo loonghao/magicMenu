@@ -7,8 +7,6 @@ import sys
 import maya.mel
 import pymel.core as pm
 
-# import pixoConfig
-# import pixoFileTools as pft
 from .base import BaseMenu
 
 
