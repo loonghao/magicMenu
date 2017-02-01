@@ -11,7 +11,7 @@ def sendComment(message_):
     repo = pr_url.split("/")
     user, repo = repo[-4:-2]
     from pygithub3 import Github
-    gh = Github(user=user, token='8d8633280b122c923247adf7a8c1a5c2aaf65eab', repo=repo)
+    gh = Github(user=user, token='fad0471d4afa1af8312847eb82e39b591fbd7494', repo=repo)
     for x in gh.issues.list_by_repo().all():
         if hasattr(x, "pull_request"):
             if x.pull_request.url == pr_url:
